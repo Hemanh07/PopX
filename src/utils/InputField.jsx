@@ -29,7 +29,7 @@ const InputField = ({ fieldName, inputType }) => {
           !isTyping && fieldName + "*" || ""
         }
         pattern={
-          inputType === 'tel' && "[0-9]{10}" || ""
+          inputType === 'tel' && "[0-9]{10}" || undefined
         }
         id={fieldName}
         onChange={(event) => {

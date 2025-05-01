@@ -26,15 +26,15 @@ const SignupPage = () => {
                 }}
             >
                 <InputField
-                    fieldName="Full Name"
+                    fieldName="FullName"
                     inputType="text"
                 />
                 <InputField
-                    fieldName="Phone Number"
+                    fieldName="PhoneNumber"
                     inputType="tel"
                 />
                 <InputField
-                    fieldName="Email Address"
+                    fieldName="EmailAddress"
                     inputType="email"
                 />
                 <InputField
@@ -42,7 +42,7 @@ const SignupPage = () => {
                     inputType="password"
                 />
                 <InputField
-                    fieldName="Company Name"
+                    fieldName="CompanyName"
                     inputType="text"
                 />
 
