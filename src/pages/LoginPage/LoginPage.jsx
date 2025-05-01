@@ -30,7 +30,7 @@ const LoginPage = () => {
                 }}
             >
                 <InputField
-                    fieldName="Email Address"
+                    fieldName="EmailAddress"
                     inputType="email"
                 />
                 <InputField
