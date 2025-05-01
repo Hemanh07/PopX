@@ -1,0 +1,49 @@
+.welcome-container {
+    padding: 2rem 1.5rem;
+    max-width: 420px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1D2226;
+}
+
+.welcome-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6D7A8A;
+    margin-bottom: 2rem;
+}
+
+.welcome-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.welcome-container button:first-of-type {
+    background-color: #6C25FF;
+    color: white;
+}
+
+.welcome-container button:last-of-type {
+    background-color: #e2d6ff;
+    color: #6C25FF;
+}
+
+.welcome-container button:hover {
+    opacity: 0.9;
+}

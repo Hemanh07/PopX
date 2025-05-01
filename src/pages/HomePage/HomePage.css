@@ -1,0 +1,55 @@
+.home-container {
+    max-width: 420px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.header-section {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.header-section h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profile-section {
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.profile-image {
+    position: relative;
+    width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+
+
+
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.profile-details h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D7A8A;
+}
+
+.content-section {
+    padding: 1.5rem;
+    line-height: 1.6;
+    color: #6D7A8A;
+}

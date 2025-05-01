@@ -1,0 +1,74 @@
+.signup-container {
+    padding: 2rem 1.5rem;
+    max-width: 420px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.signup-container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #1D2226;
+    line-height: 1.2;
+}
+
+.signup-container form {
+    width: 100%;
+}
+
+.signup-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 2rem;
+    border: none;
+    background-color: #6C25FF;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.signup-container button:hover {
+    opacity: 0.9;
+}
+
+.agency-selection {
+    margin-top: 1rem;
+}
+
+.agency-selection label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #1D2226;
+}
+
+.agency-selection label span {
+    color: #FF5252;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radio-option input[type="radio"] {
+    accent-color: #6C25FF;
+    width: 18px;
+    height: 18px;
+}

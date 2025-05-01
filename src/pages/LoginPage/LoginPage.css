@@ -1,0 +1,46 @@
+.login-container {
+    padding: 2rem 1.5rem;
+    max-width: 420px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 4rem;
+}
+
+.login-container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #1D2226;
+}
+
+.login-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6D7A8A;
+    margin-bottom: 2rem;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    background-color: #CBCBCB;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.login-container button:hover {
+    opacity: 0.9;
+}
+
+.login-container form {
+    width: 100%;
+}
