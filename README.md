@@ -1,12 +1,52 @@
-# React + Vite
+# PopX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance authentication and user management frontend with a clean, component-driven architecture built on React 19 and Vite.
 
-Currently, two official plugins are available:
+![alt text](image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Architecture
 
-## Expanding the ESLint configuration
+### The application follows a modular architecture with clear separation of concerns:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- State Management
+
+- Component Design
+
+## State Management
+
+        User data is managed through React Context API for efficient prop drilling prevention:
+         DataProvider implementation with clean separation of concerns
+
+![alt text](image-1.png)
+
+## Component Design
+
+### The application uses a component-driven development approach:
+
+- Atomic Components - Base-level UI elements (InputField, Button)
+
+- Molecular Components - Combinations of atomic components (Forms, Cards)
+
+- Page Components - Full views composed of molecular components
+
+![alt text](image-2.png)
+
+# Features
+
+- Bulletproof Authentication Flow - Complete signup/signin process with form validation
+- Context-based State Management - Efficient global state handling with React Context API
+- Component Composition Pattern - Modular, reusable component architecture
+- Responsive Design - Mobile-first approach with fluid layouts
+- Atomic Design Principles - Structured component hierarchy for maintainability
+
+# Tech Stack
+
+## Core
+
+- React 19.0.0 - Leveraging the latest React features and optimizations
+- Vite - Next-generation frontend tooling with HMR and optimized builds
+- React Router DOM 7.5.3 - Client-side routing with the latest Router capabilities
+
+## UI & Styling
+
+- Custom CSS - Handcrafted styles for pixel-perfect implementation
